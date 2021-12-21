@@ -116,7 +116,7 @@
                     <a class="ud-menu-scroll" href="#mutilva3">Mutilva 3</a>
                   </li>
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#contact">Zona 4</a>
+                    <a class="ud-menu-scroll" href="#contact">Contacto</a>
                   </li>
                 </ul>
               </div>
@@ -158,7 +158,7 @@
     <!-- ====== Hero End ====== -->
 
     <!-- ====== Soto de lezkairu ====== -->
-    <section id="soto" class="ud-soto">
+    <section id="soto" class="ud-even">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -189,7 +189,7 @@
                 </div>
                 <div class="accordion">
                   <button
-                    class="ud-faq-btn"
+                    class="ud-faq-btn collapsed"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseSotoLocalizacion"
                   >
@@ -198,7 +198,7 @@
                     </span>
                     <span>Localización</span>
                   </button>
-                  <div id="collapseSotoLocalizacion" class="accordion-collapse">
+                  <div id="collapseSotoLocalizacion" class="accordion-collapse collapse">
                     <div
                       id="mapSoto"
                       style="
@@ -212,7 +212,7 @@
                   </div>
                   <div class="accordion">
                     <button
-                      class="ud-faq-btn"
+                      class="ud-faq-btn collapsed"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseSotoPlazas"
                     >
@@ -221,7 +221,7 @@
                       </span>
                       <span>Plazas</span>
                     </button>
-                    <div id="collapseSotoPlazas" class="accordion-collapse">
+                    <div id="collapseSotoPlazas" class="accordion-collapse collapse">
                       <div id="plazasSoto">
                         <img
                           src="assets/images/hero/Soto.png"
@@ -229,7 +229,7 @@
                           usemap="#areaSoto"
                         />
         
-                        <map name="areaSoto">
+                        <!-- <map name="areaSoto">
                           <area
                             alt="2;5;10"
                             class="plaza"
@@ -251,7 +251,7 @@
                             href="#"
                             shape="circle"
                           />
-                        </map>
+                        </map> -->
                         <div id="plazaInfo">
                           <div>
                             <label>Ancho: </label><label id="plazaInfoAncho"></label>
@@ -273,11 +273,11 @@
     <!-- ====== Soto de lezkairu End ====== -->
 
     <!-- ====== Sarriguren 1 Start ====== -->
-    <section id="sarriguren1" class="ud-sarriguren1">
+    <section id="sarriguren1" class="ud-odd">
       <div class="container">
-        <div class="ud-sarriguren1-wrapper wow fadeInUp" data-wow-delay=".2s">
-          <div class="ud-sarriguren1-content-wrapper">
-            <div class="ud-sarriguren1-content">
+        <div class="ud-odd-wrapper wow fadeInUp" data-wow-delay=".2s">
+          <div class="ud-odd-content-wrapper">
+            <div class="ud-odd-content">
               <h3>Sarriguren 1</h3>
               <h4>C/Bardenas reales 5-7</h4>
               <div class="ud-single-faq wow fadeInUp" data-wow-delay=".1s">
@@ -304,16 +304,16 @@
                 </div>
                 <div class="accordion">
                   <button
-                    class="ud-faq-btn"
+                    class="ud-faq-btn collapsed"
                     data-bs-toggle="collapse"
-                    data-bs-target="#collapseSarrigurenLocalizacion"
+                    data-bs-target="#collapseSarriguren1Localizacion"
                   >
                     <span class="icon flex-shrink-0">
                       <i class="lni lni-chevron-down"></i>
                     </span>
-                    <span>Información</span>
+                    <span>Localización</span>
                   </button>
-                  <div id="collapseSarrigurenLocalizacion" class="accordion-collapse">
+                  <div id="collapseSarriguren1Localizacion" class="accordion-collapse collapse">
                     <div
                     id="mapSarriguren1"
                     style="
@@ -326,7 +326,37 @@
                   ></div>
                   </div>
                 </div>
-              </div>             
+                <div class="accordion">
+                  <button
+                    class="ud-faq-btn collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseSarriguren1Plazas"
+                  >
+                    <span class="icon flex-shrink-0">
+                      <i class="lni lni-chevron-down"></i>
+                    </span>
+                    <span>Plazas</span>
+                  </button>
+                <div id="collapseSarriguren1Plazas" class="accordion-collapse collapse">
+                  <div id="plazasSoto">
+                    <img
+                      src="assets/images/hero/Soto.png"
+                      alt="Sarriguren 1"
+                      usemap="#areaSarriguren1"
+                    />
+                    <div id="plazaInfo">
+                      <div>
+                        <label>Ancho: </label><label id="plazaInfoAncho"></label>
+                      </div>
+                      <div>
+                        <label>Largo: </label><label id="plazaInfoLargo"></label>
+                      </div>
+                      <div><label>m2: </label><label id="plazaInfoM2"></label></div>
+                    </div>
+                  </div>
+                </div>
+              </div>       
+              </div>      
             </div>
           </div>
         </div>
@@ -335,14 +365,48 @@
     <!-- ====== Sarriguren 1 End ====== -->
 
     <!-- ====== Sarriguren 2 Start ====== -->
-    <section id="sarriguren2" class="ud-sarriguren2">
+    <section id="sarriguren2" class="ud-even">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
             <div class="ud-section-title mx-auto">
               <h3>Sarriguren 2</h3>
               <h4>C/Bardenas reales 58</h4>
-              <div
+              <div class="ud-single-faq wow fadeInUp" data-wow-delay=".1s">
+                <div class="accordion">
+                  <button
+                    class="ud-faq-btn collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseSarriguren2Info"
+                  >
+                    <span class="icon flex-shrink-0">
+                      <i class="lni lni-chevron-down"></i>
+                    </span>
+                    <span>Información</span>
+                  </button>
+                  <div id="collapseSarriguren2Info" class="accordion-collapse collapse">
+                    <div class="ud-faq-body">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make a
+                      type specimen book.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion">
+                  <button
+                    class="ud-faq-btn collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseSarriguren2Localizacion"
+                  >
+                    <span class="icon flex-shrink-0">
+                      <i class="lni lni-chevron-down"></i>
+                    </span>
+                    <span>Localización</span>
+                  </button>
+                  <div id="collapseSarriguren2Localizacion" class="accordion-collapse collapse">
+                    <div
                 id="mapSarriguren2"
                 style="
                   width: auto;
@@ -352,568 +416,380 @@
                   border-radius: 4px;
                 "
               ></div>
+                  </div>
+                </div>
+                <div class="accordion">
+                  <button
+                    class="ud-faq-btn collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseSarriguren2Plazas"
+                  >
+                    <span class="icon flex-shrink-0">
+                      <i class="lni lni-chevron-down"></i>
+                    </span>
+                    <span>Plazas</span>
+                  </button>
+                <div id="collapseSarriguren2Plazas" class="accordion-collapse collapse">
+                  <div id="plazasSarriguren2">
+                    <img
+                      src="assets/images/hero/Soto.png"
+                      alt="Sarriguren 2"
+                      usemap="#areaSarriguren2"
+                    />
+                    <div id="plazaInfo">
+                      <div>
+                        <label>Ancho: </label><label id="plazaInfoAncho"></label>
+                      </div>
+                      <div>
+                        <label>Largo: </label><label id="plazaInfoLargo"></label>
+                      </div>
+                      <div><label>m2: </label><label id="plazaInfoM2"></label></div>
+                    </div>
+                  </div>
+                </div>
+              </div>       
+              </div> 
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- ====== Sarriguren 1 End ====== -->
+    <!-- ====== Sarriguren 2 End ====== -->
 
-    <!-- ====== FAQ Start ====== -->
-    <section id="faq" class="ud-faq">
-      <div class="shape">
-        <img src="assets/images/faq/shape.svg" alt="shape" />
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="ud-section-title mx-auto">
-              <span>FAQ</span>
-              <h2>Any Questions? Answered</h2>
-              <p>
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="ud-single-faq wow fadeInUp" data-wow-delay=".1s">
-              <div class="accordion">
-                <button
-                  class="ud-faq-btn collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseOne"
-                >
-                  <span class="icon flex-shrink-0">
-                    <i class="lni lni-chevron-down"></i>
-                  </span>
-                  <span>How to use UIdeck?</span>
-                </button>
-                <div id="collapseOne" class="accordion-collapse collapse">
-                  <div class="ud-faq-body">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+    <!-- ====== Mutilva 1 ====== -->
+    <section id="mutilva1" class="ud-odd">      
+        <div class="container">
+          <div class="ud-odd-wrapper wow fadeInUp" data-wow-delay=".2s">
+            <div class="ud-odd-content-wrapper">
+              <div class="ud-odd-content">
+                <h3>Mutilva 1</h3>
+                <h4>C/Castillo Irulegui</h4>
+                <div class="ud-single-faq wow fadeInUp" data-wow-delay=".1s">
+                  <div class="accordion">
+                    <button
+                      class="ud-faq-btn collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseMutilva1Info"
+                    >
+                      <span class="icon flex-shrink-0">
+                        <i class="lni lni-chevron-down"></i>
+                      </span>
+                      <span>Información</span>
+                    </button>
+                    <div id="collapseMutilva1Info" class="accordion-collapse collapse">
+                      <div class="ud-faq-body">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's
+                        standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a
+                        type specimen book.
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="ud-single-faq wow fadeInUp" data-wow-delay=".15s">
-              <div class="accordion">
-                <button
-                  class="ud-faq-btn collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo"
-                >
-                  <span class="icon flex-shrink-0">
-                    <i class="lni lni-chevron-down"></i>
-                  </span>
-                  <span>How to download icons from Lineicons?</span>
-                </button>
-                <div id="collapseTwo" class="accordion-collapse collapse">
-                  <div class="ud-faq-body">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                  <div class="accordion">
+                    <button
+                      class="ud-faq-btn collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseMutilva1Localizacion"
+                    >
+                      <span class="icon flex-shrink-0">
+                        <i class="lni lni-chevron-down"></i>
+                      </span>
+                      <span>Localización</span>
+                    </button>
+                    <div id="collapseMutilva1Localizacion" class="accordion-collapse collapse">
+                      <div
+                      id="mapMutilva1"
+                      style="
+                        width: auto;
+                        height: 400px;
+                        background: white;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                      "
+                    ></div>
+                    </div>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="ud-single-faq wow fadeInUp" data-wow-delay=".2s">
-              <div class="accordion">
-                <button
-                  class="ud-faq-btn collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree"
-                >
-                  <span class="icon flex-shrink-0">
-                    <i class="lni lni-chevron-down"></i>
-                  </span>
-                  <span>Is GrayGrids part of UIdeck?</span>
-                </button>
-                <div id="collapseThree" class="accordion-collapse collapse">
-                  <div class="ud-faq-body">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                  <div class="accordion">
+                    <button
+                      class="ud-faq-btn collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseMutilva1Plazas"
+                    >
+                      <span class="icon flex-shrink-0">
+                        <i class="lni lni-chevron-down"></i>
+                      </span>
+                      <span>Plazas</span>
+                    </button>
+                  <div id="collapseMutilva1Plazas" class="accordion-collapse collapse">
+                    <div id="plazasMutilva1">
+                      <img
+                        src="assets/images/hero/Soto.png"
+                        alt="Mutilva 1"
+                        usemap="#areaSarriguren1"
+                      />
+                      <div id="plazaInfo">
+                        <div>
+                          <label>Ancho: </label><label id="plazaInfoAncho"></label>
+                        </div>
+                        <div>
+                          <label>Largo: </label><label id="plazaInfoLargo"></label>
+                        </div>
+                        <div><label>m2: </label><label id="plazaInfoM2"></label></div>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="ud-single-faq wow fadeInUp" data-wow-delay=".1s">
-              <div class="accordion">
-                <button
-                  class="ud-faq-btn collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseFour"
-                >
-                  <span class="icon flex-shrink-0">
-                    <i class="lni lni-chevron-down"></i>
-                  </span>
-                  <span>Can I use this template for commercial project?</span>
-                </button>
-                <div id="collapseFour" class="accordion-collapse collapse">
-                  <div class="ud-faq-body">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="ud-single-faq wow fadeInUp" data-wow-delay=".15s">
-              <div class="accordion">
-                <button
-                  class="ud-faq-btn collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseFive"
-                >
-                  <span class="icon flex-shrink-0">
-                    <i class="lni lni-chevron-down"></i>
-                  </span>
-                  <span>Do you have plan releasing Play Pro?</span>
-                </button>
-                <div id="collapseFive" class="accordion-collapse collapse">
-                  <div class="ud-faq-body">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="ud-single-faq wow fadeInUp" data-wow-delay=".2s">
-              <div class="accordion">
-                <button
-                  class="ud-faq-btn collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseSix"
-                >
-                  <span class="icon flex-shrink-0">
-                    <i class="lni lni-chevron-down"></i>
-                  </span>
-                  <span>Where and how to host this template?</span>
-                </button>
-                <div id="collapseSix" class="accordion-collapse collapse">
-                  <div class="ud-faq-body">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
-                  </div>
-                </div>
+                </div>       
+                </div>      
               </div>
             </div>
           </div>
         </div>
-      </div>
+      
     </section>
-    <!-- ====== FAQ End ====== -->
+    <!-- ====== Mutilva 1 End ====== -->
 
-    <!-- ====== Testimonials Start ====== -->
-    <section id="testimonials" class="ud-testimonials">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="ud-section-title mx-auto">
-              <span>Testimonials</span>
-              <h2>What our Customers Says</h2>
-              <p>
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
-              </p>
-            </div>
-          </div>
-        </div>
 
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div
-              class="ud-single-testimonial wow fadeInUp"
-              data-wow-delay=".1s"
-            >
-              <div class="ud-testimonial-ratings">
-                <i class="lni lni-star-filled"></i>
-                <i class="lni lni-star-filled"></i>
-                <i class="lni lni-star-filled"></i>
-                <i class="lni lni-star-filled"></i>
-                <i class="lni lni-star-filled"></i>
-              </div>
-              <div class="ud-testimonial-content">
-                <p>
-                  “Our members are so impressed. It's intuitive. It's clean.
-                  It's distraction free. If you're building a community.
-                </p>
-              </div>
-              <div class="ud-testimonial-info">
-                <div class="ud-testimonial-image">
-                  <img
-                    src="assets/images/testimonials/author-01.png"
-                    alt="author"
-                  />
-                </div>
-                <div class="ud-testimonial-meta">
-                  <h4>Sabo Masties</h4>
-                  <p>Founder @UIdeck</p>
+<!-- ====== Mutilva 2 Start ====== -->
+<section id="mutilva2" class="ud-even">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="ud-section-title mx-auto">
+          <h3>Mutilva 2</h3>
+          <h4>Plaza Palacio de Góngora 1-4</h4>
+          <div class="ud-single-faq wow fadeInUp" data-wow-delay=".1s">
+            <div class="accordion">
+              <button
+                class="ud-faq-btn collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseMutilva2Info"
+              >
+                <span class="icon flex-shrink-0">
+                  <i class="lni lni-chevron-down"></i>
+                </span>
+                <span>Información</span>
+              </button>
+              <div id="collapseMutilva2Info" class="accordion-collapse collapse">
+                <div class="ud-faq-body">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a
+                  type specimen book.
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div
-              class="ud-single-testimonial wow fadeInUp"
-              data-wow-delay=".15s"
-            >
-              <div class="ud-testimonial-ratings">
-                <i class="lni lni-star-filled"></i>
-                <i class="lni lni-star-filled"></i>
-                <i class="lni lni-star-filled"></i>
-                <i class="lni lni-star-filled"></i>
-                <i class="lni lni-star-filled"></i>
+            <div class="accordion">
+              <button
+                class="ud-faq-btn collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseMutilva2Localizacion"
+              >
+                <span class="icon flex-shrink-0">
+                  <i class="lni lni-chevron-down"></i>
+                </span>
+                <span>Localización</span>
+              </button>
+              <div id="collapseMutilva2Localizacion" class="accordion-collapse collapse">
+                <div
+            id="mapMutilva2"
+            style="
+              width: auto;
+              height: 400px;
+              background: white;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+            "
+          ></div>
               </div>
-              <div class="ud-testimonial-content">
-                <p>
-                  “Our members are so impressed. It's intuitive. It's clean.
-                  It's distraction free. If you're building a community.
-                </p>
-              </div>
-              <div class="ud-testimonial-info">
-                <div class="ud-testimonial-image">
-                  <img
-                    src="assets/images/testimonials/author-02.png"
-                    alt="author"
-                  />
-                </div>
-                <div class="ud-testimonial-meta">
-                  <h4>Margin Gesmu</h4>
-                  <p>Founder @Lineicons</p>
+            </div>
+            <div class="accordion">
+              <button
+                class="ud-faq-btn collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseMutilva2Plazas"
+              >
+                <span class="icon flex-shrink-0">
+                  <i class="lni lni-chevron-down"></i>
+                </span>
+                <span>Plazas</span>
+              </button>
+            <div id="collapseMutilva2Plazas" class="accordion-collapse collapse">
+              <div id="plazasMutilva2">
+                <img
+                  src="assets/images/hero/Soto.png"
+                  alt="Mutilva 2"
+                  usemap="#areaMutilva2"
+                />
+                <div id="plazaInfo">
+                  <div>
+                    <label>Ancho: </label><label id="plazaInfoAncho"></label>
+                  </div>
+                  <div>
+                    <label>Largo: </label><label id="plazaInfoLargo"></label>
+                  </div>
+                  <div><label>m2: </label><label id="plazaInfoM2"></label></div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div
-              class="ud-single-testimonial wow fadeInUp"
-              data-wow-delay=".2s"
-            >
-              <div class="ud-testimonial-ratings">
-                <i class="lni lni-star-filled"></i>
-                <i class="lni lni-star-filled"></i>
-                <i class="lni lni-star-filled"></i>
-                <i class="lni lni-star-filled"></i>
-                <i class="lni lni-star-filled"></i>
-              </div>
-              <div class="ud-testimonial-content">
-                <p>
-                  “Our members are so impressed. It's intuitive. It's clean.
-                  It's distraction free. If you're building a community.
-                </p>
-              </div>
-              <div class="ud-testimonial-info">
-                <div class="ud-testimonial-image">
-                  <img
-                    src="assets/images/testimonials/author-03.png"
-                    alt="author"
-                  />
-                </div>
-                <div class="ud-testimonial-meta">
-                  <h4>William Smith</h4>
-                  <p>Founder @GrayGrids</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="ud-brands wow fadeInUp" data-wow-delay=".2s">
-              <div class="ud-title">
-                <h6>Trusted and Used by</h6>
-              </div>
-              <div class="ud-brands-logo">
-                <div class="ud-single-logo">
-                  <img src="assets/images/brands/ayroui.svg" alt="ayroui" />
-                </div>
-                <div class="ud-single-logo">
-                  <img src="assets/images/brands/uideck.svg" alt="uideck" />
-                </div>
-                <div class="ud-single-logo">
-                  <img
-                    src="assets/images/brands/graygrids.svg"
-                    alt="graygrids"
-                  />
-                </div>
-                <div class="ud-single-logo">
-                  <img
-                    src="assets/images/brands/lineicons.svg"
-                    alt="lineicons"
-                  />
-                </div>
-                <div class="ud-single-logo">
-                  <img
-                    src="assets/images/brands/ecommerce-html.svg"
-                    alt="ecommerce-html"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
+          </div>       
+          </div>  
         </div>
       </div>
-    </section>
-    <!-- ====== Testimonials End ====== -->
+    </div>
+  </div>
+</section>
+<!-- ====== Mutilva 2 End ====== -->
 
-    <!-- ====== Team Start ====== -->
-    <section id="mutilva1" class="ud-mutilva1">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="ud-section-title mx-auto">
-              <h3>Mutilva 1</h3>
-              <h4>C/Castillo Irulegui</h4>
-              <p>
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
-              </p>
-            </div>
-          </div>
-        </div>
 
-        <div class="row">
-          <div class="col-xl-3 col-lg-3 col-sm-6">
-            <div class="ud-single-mutilva1 wow fadeInUp" data-wow-delay=".1s">
-              <div class="ud-mutilva1-image-wrapper">
-                <div class="ud-mutilva1-image">
-                  <img src="assets/images/team/team-01.png" alt="team" />
+ <!-- ====== Mutilva 3 ====== -->
+ <section id="mutilva3" class="ud-odd">      
+  <div class="container">
+    <div class="ud-odd-wrapper wow fadeInUp" data-wow-delay=".2s">
+      <div class="ud-odd-content-wrapper">
+        <div class="ud-odd-content">
+          <h3>Mutilva 3</h3>
+          <h4>C/Valle de Aranguren 1-5</h4>
+          <div class="ud-single-faq wow fadeInUp" data-wow-delay=".1s">
+            <div class="accordion">
+              <button
+                class="ud-faq-btn collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseMutilva3Info"
+              >
+                <span class="icon flex-shrink-0">
+                  <i class="lni lni-chevron-down"></i>
+                </span>
+                <span>Información</span>
+              </button>
+              <div id="collapseMutilva3Info" class="accordion-collapse collapse">
+                <div class="ud-faq-body">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a
+                  type specimen book.
                 </div>
-
-                <img
-                  src="assets/images/team/dotted-shape.svg"
-                  alt="shape"
-                  class="shape shape-1"
-                />
-                <img
-                  src="assets/images/team/shape-2.svg"
-                  alt="shape"
-                  class="shape shape-2"
-                />
               </div>
-              <div class="ud-mutilva1-info">
-                <h5>Adveen Desuza</h5>
-                <h6>UI Designer</h6>
-              </div>
-              <ul class="ud-mutilva1-socials">
-                <li>
-                  <a href="https://twitter.com/MusharofChy">
-                    <i class="lni lni-facebook-filled"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/MusharofChy">
-                    <i class="lni lni-twitter-filled"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/MusharofChy">
-                    <i class="lni lni-instagram-filled"></i>
-                  </a>
-                </li>
-              </ul>
             </div>
-          </div>
-          <div class="col-xl-3 col-lg-3 col-sm-6">
-            <div class="ud-single-mutilva1 wow fadeInUp" data-wow-delay=".15s">
-              <div class="ud-mutilva1-image-wrapper">
-                <div class="ud-mutilva1-image">
-                  <img src="assets/images/team/team-02.png" alt="team" />
+            <div class="accordion">
+              <button
+                class="ud-faq-btn collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseMutilva3Localizacion"
+              >
+                <span class="icon flex-shrink-0">
+                  <i class="lni lni-chevron-down"></i>
+                </span>
+                <span>Localización</span>
+              </button>
+              <div id="collapseMutilva3Localizacion" class="accordion-collapse collapse">
+                <div
+                id="mapMutilva3"
+                style="
+                  width: auto;
+                  height: 400px;
+                  background: white;
+                  border: 1px solid #ccc;
+                  border-radius: 4px;
+                "
+              ></div>
+              </div>
+            </div>
+            <div class="accordion">
+              <button
+                class="ud-faq-btn collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseMutilva3Plazas"
+              >
+                <span class="icon flex-shrink-0">
+                  <i class="lni lni-chevron-down"></i>
+                </span>
+                <span>Plazas</span>
+              </button>
+            <div id="collapseMutilva3Plazas" class="accordion-collapse collapse">
+              <div id="plazasMutilva3">
+                <img
+                  src="assets/images/hero/Soto.png"
+                  alt="Mutilva 3"
+                  usemap="#areaMutilva3"
+                />
+                <div id="plazaInfo">
+                  <div>
+                    <label>Ancho: </label><label id="plazaInfoAncho"></label>
+                  </div>
+                  <div>
+                    <label>Largo: </label><label id="plazaInfoLargo"></label>
+                  </div>
+                  <div><label>m2: </label><label id="plazaInfoM2"></label></div>
                 </div>
-
-                <img
-                  src="assets/images/team/dotted-shape.svg"
-                  alt="shape"
-                  class="shape shape-1"
-                />
-                <img
-                  src="assets/images/team/shape-2.svg"
-                  alt="shape"
-                  class="shape shape-2"
-                />
               </div>
-              <div class="ud-mutilva1-info">
-                <h5>Jezmin uniya</h5>
-                <h6>Product Designer</h6>
-              </div>
-              <ul class="ud-mutilva1-socials">
-                <li>
-                  <a href="https://twitter.com/MusharofChy">
-                    <i class="lni lni-facebook-filled"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/MusharofChy">
-                    <i class="lni lni-twitter-filled"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/MusharofChy">
-                    <i class="lni lni-instagram-filled"></i>
-                  </a>
-                </li>
-              </ul>
             </div>
-          </div>
-          <div class="col-xl-3 col-lg-3 col-sm-6">
-            <div class="ud-single-mutilva1 wow fadeInUp" data-wow-delay=".2s">
-              <div class="ud-mutilva1-image-wrapper">
-                <div class="ud-mutilva1-image">
-                  <img src="assets/images/team/team-03.png" alt="team" />
-                </div>
-
-                <img
-                  src="assets/images/team/dotted-shape.svg"
-                  alt="shape"
-                  class="shape shape-1"
-                />
-                <img
-                  src="assets/images/team/shape-2.svg"
-                  alt="shape"
-                  class="shape shape-2"
-                />
-              </div>
-              <div class="ud-mutilva1-info">
-                <h5>Andrieo Gloree</h5>
-                <h6>App Developer</h6>
-              </div>
-              <ul class="ud-mutilva1-socials">
-                <li>
-                  <a href="https://twitter.com/MusharofChy">
-                    <i class="lni lni-facebook-filled"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/MusharofChy">
-                    <i class="lni lni-twitter-filled"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/MusharofChy">
-                    <i class="lni lni-instagram-filled"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-3 col-sm-6">
-            <div class="ud-single-mutilva1 wow fadeInUp" data-wow-delay=".25s">
-              <div class="ud-mutilva1-image-wrapper">
-                <div class="ud-mutilva1-image">
-                  <img src="assets/images/team/team-04.png" alt="team" />
-                </div>
-
-                <img
-                  src="assets/images/team/dotted-shape.svg"
-                  alt="shape"
-                  class="shape shape-1"
-                />
-                <img
-                  src="assets/images/team/shape-2.svg"
-                  alt="shape"
-                  class="shape shape-2"
-                />
-              </div>
-              <div class="ud-mutilva1-info">
-                <h5>Jackie Sanders</h5>
-                <h6>Content Writer</h6>
-              </div>
-              <ul class="ud-mutilva1-socials">
-                <li>
-                  <a href="https://twitter.com/MusharofChy">
-                    <i class="lni lni-facebook-filled"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/MusharofChy">
-                    <i class="lni lni-twitter-filled"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/MusharofChy">
-                    <i class="lni lni-instagram-filled"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
+          </div>       
+          </div>      
         </div>
       </div>
-    </section>
-    <!-- ====== Team End ====== -->
+    </div>
+  </div>
+
+</section>
+<!-- ====== Mutilva 3 End ====== -->
+
+
+
+
+
+
 
     <!-- ====== Contact Start ====== -->
     <section id="contact" class="ud-contact">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-xl-8 col-lg-7">
+          <div class="col-xl-12 col-lg-7">
             <div class="ud-contact-content-wrapper">
               <div class="ud-contact-title">
-                <span>CONTACT US</span>
+                <span>CONTACTO</span>
                 <h2>
-                  Let’s talk about <br />
-                  Love to hear from you!
+                  Pregúntanos cualquier duda <br />
+                  ¡Te esperamos!
                 </h2>
               </div>
               <div class="ud-contact-info-wrapper">
                 <div class="ud-single-info">
                   <div class="ud-info-icon">
-                    <i class="lni lni-map-marker"></i>
+                    <i class="lni lni-envelope"></i>
                   </div>
                   <div class="ud-info-meta">
-                    <h5>Our Location</h5>
-                    <p>401 Broadway, 24th Floor, Orchard Cloud View, London</p>
+                    <h5>Email</h5>
+                    <p>alzurbasl@gmail.com</p>
                   </div>
                 </div>
                 <div class="ud-single-info">
                   <div class="ud-info-icon">
-                    <i class="lni lni-envelope"></i>
+                    <i class="lni lni-phone"></i>
                   </div>
                   <div class="ud-info-meta">
-                    <h5>How Can We Help?</h5>
-                    <p>info@yourdomain.com</p>
-                    <p>contact@yourdomain.com</p>
+                    <h5>Teléfono</h5>
+                    <p>607399605</p>
                   </div>
-                </div>
+                </div>                
               </div>
             </div>
           </div>
           <div class="col-xl-4 col-lg-5">
-            <div
+           <!-- <div
               class="ud-contact-form-wrapper wow fadeInUp"
               data-wow-delay=".2s"
             >
-              <h3 class="ud-contact-form-title">Send us a Message</h3>
+               <h3 class="ud-contact-form-title">Envíanos un mensaje</h3>
               <form class="ud-contact-form">
                 <div class="ud-form-group">
-                  <label for="fullName">Full Name*</label>
+                  <label for="fullName">Nombre*</label>
                   <input
                     type="text"
                     name="fullName"
-                    placeholder="Adam Gelius"
+                    placeholder=""
                   />
                 </div>
                 <div class="ud-form-group">
@@ -921,31 +797,31 @@
                   <input
                     type="email"
                     name="email"
-                    placeholder="example@yourmail.com"
+                    placeholder=""
                   />
                 </div>
                 <div class="ud-form-group">
-                  <label for="phone">Phone*</label>
+                  <label for="phone">Teléfono*</label>
                   <input
                     type="text"
                     name="phone"
-                    placeholder="+885 1254 5211 552"
+                    placeholder=""
                   />
                 </div>
                 <div class="ud-form-group">
-                  <label for="message">Message*</label>
+                  <label for="message">Mensaje*</label>
                   <textarea
                     name="message"
                     rows="1"
-                    placeholder="type your message here"
+                    placeholder="Escriba aquí su mensaje..."
                   ></textarea>
                 </div>
                 <div class="ud-form-group mb-0">
                   <button type="submit" class="ud-main-btn">
-                    Send Message
+                    Enviar mensaje
                   </button>
                 </div>
-              </form>
+              </form> -->
             </div>
           </div>
         </div>
@@ -1277,8 +1153,21 @@
 
         const mapSarriguren2Options = Object.assign({}, mapOptions);
         mapSarriguren2Options.center = new google.maps.LatLng(
-          42.80947070537719,
-          -1.5932964725884355
+          42.80947070537719, -1.5932964725884355
+        );
+
+        const mapMutilva1Options = Object.assign({}, mapOptions);
+        mapMutilva1Options.center = new google.maps.LatLng(
+          42.79178090273898, -1.6152971707368544
+        );
+
+        const mapMutilva2Options = Object.assign({}, mapOptions);
+        mapMutilva2Options.center = new google.maps.LatLng(
+          42.79549400473245, -1.616726543752697
+        );
+        const mapMutilva3Options = Object.assign({}, mapOptions);
+        mapMutilva3Options.center = new google.maps.LatLng(
+          42.79863041314493, -1.640302543752652
         );
 
         const mapSoto = generateMap(
@@ -1294,6 +1183,18 @@
           document.getElementById("mapSarriguren2"),
           mapSarriguren2Options
         );
+        const mapMutilva1 = generateMap(
+          document.getElementById("mapMutilva1"),
+          mapMutilva1Options
+        );
+        const mapMutilva2 = generateMap(
+          document.getElementById("mapMutilva2"),
+          mapMutilva2Options
+        );
+        const mapMutilva3 = generateMap(
+          document.getElementById("mapMutilva3"),
+          mapMutilva3Options
+        );
 
         const markerSoto = generateMarker(mapSotoOptions.center, mapSoto);
 
@@ -1305,6 +1206,21 @@
         const markerSarriguren2 = generateMarker(
           mapSarriguren2Options.center,
           mapSarriguren2
+        );
+
+        const markerMutilva1 = generateMarker(
+          mapMutilva1Options.center,
+          mapMutilva1
+        );
+
+        const markerMutilva2 = generateMarker(
+          mapMutilva2Options.center,
+          mapMutilva2
+        );
+
+        const markerMutilva3 = generateMarker(
+          mapMutilva3Options.center,
+          mapMutilva3
         );
       }
     </script>

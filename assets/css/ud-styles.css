@@ -674,13 +674,13 @@ p {
 }
 
 /* ===== Features CSS ===== */
-.ud-soto {
+.ud-even {
   padding-top: 120px;
   padding-bottom: 90px;
 }
 
 @media (max-width: 767px) {
-  .ud-soto {
+  .ud-even {
     padding-top: 80px;
     padding-bottom: 40px;
   }
@@ -807,18 +807,18 @@ h4 {
 }
 
 /* ===== Sarriguren 1 CSS ===== */
-.ud-sarriguren1 {
+.ud-odd {
   background: #f3f4fe;
   padding: 120px 0;
 }
 
 @media (max-width: 767px) {
-  .ud-sarriguren1 {
+  .ud-odd {
     padding: 80px 0;
   }
 }
 
-.ud-sarriguren1-wrapper {
+.ud-odd-wrapper {
   background: #f3f4fe;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -830,32 +830,32 @@ h4 {
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 767px) {
-  .ud-sarriguren1-wrapper {
+  .ud-odd-wrapper {
     display: block;
   }
 }
 
-.ud-sarriguren1-content-wrapper {
+.ud-odd-content-wrapper {
   width: 100%;
 }
 
 @media (max-width: 767px) {
-  .ud-sarriguren1-content-wrapper {
+  .ud-odd-content-wrapper {
     padding: 50px 30px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .ud-sarriguren1-content-wrapper {
+  .ud-odd-content-wrapper {
     padding: 50px;
   }
 }
 
-.ud-sarriguren1-content {
+.ud-odd-content {
   /* max-width: 500px; */
 }
 
-.ud-sarriguren1-content .tag {
+.ud-odd-content .tag {
   font-weight: 500;
   font-size: 14px;
   color: var(--white);
@@ -866,19 +866,19 @@ h4 {
 }
 
 @media (max-width: 767px) {
-  .ud-sarriguren1-content h2 {
+  .ud-odd-content h2 {
     font-size: 26px;
     line-height: 38px;
   }
 }
 
-.ud-sarriguren1-content p {
+.ud-odd-content p {
   font-size: 16px;
   line-height: 28px;
   margin-bottom: 40px;
 }
 
-.ud-sarriguren1-content .ud-main-btn:hover {
+.ud-odd-content .ud-main-btn:hover {
   background: #2748b4;
   -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
@@ -886,19 +886,19 @@ h4 {
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 767px) {
-  .ud-sarriguren1-image {
+  .ud-odd-image {
     text-align: center;
   }
 }
 
 /* ===== Pricing CSS ===== */
-.ud-sarriguren2 {
+.ud-even {
   padding-top: 120px;
   padding-bottom: 90px;
 }
 
 @media (max-width: 767px) {
-  .ud-sarriguren2 {
+  .ud-even {
     padding-top: 80px;
     padding-bottom: 40px;
   }
@@ -927,7 +927,7 @@ h4 {
   padding: 55px 30px;
 }
 
-.ud-single-sarriguren2.active .ud-sarriguren2-body li {
+.ud-single-sarriguren2.active .ud-even-body li {
   color: var(--white);
 }
 
@@ -964,11 +964,11 @@ h4 {
   font-weight: 600;
 }
 
-.ud-single-sarriguren2 .ud-sarriguren2-body {
+.ud-single-sarriguren2 .ud-even-body {
   margin-bottom: 40px;
 }
 
-.ud-single-sarriguren2 .ud-sarriguren2-body li {
+.ud-single-sarriguren2 .ud-even-body li {
   font-weight: 500;
   font-size: 15px;
   margin-bottom: 18px;
