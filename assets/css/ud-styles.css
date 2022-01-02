@@ -162,8 +162,8 @@ p {
 
 @media (max-width: 767px) {
   .container {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
 
@@ -876,6 +876,74 @@ h4 {
   font-size: 16px;
   line-height: 28px;
   margin-bottom: 40px;
+}
+
+.plano {
+  cursor: zoom-in;
+}
+
+.dowloadButton {
+  background-color: #007ab9;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 1rem;
+}
+.dowloadButton:hover {
+  color: rgb(199, 199, 199);
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  width: 50%;
+}
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: center;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.tableContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-magnifier-container {
+  position: relative;
+}
+
+.img-magnifier-glass {
+  position: relative;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  width: 100px;
+  height: 100px;
 }
 
 .ud-odd-content .ud-main-btn:hover {
